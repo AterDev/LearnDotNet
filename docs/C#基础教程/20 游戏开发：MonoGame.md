@@ -8,10 +8,10 @@
 
 ## 准备
 
-我们选择`MonoGame`来做示例，用纯代码的方式去实现一些简单的功能，为些我们要做一些准备。
+我们选择`MonoGame`来做示例，用纯代码的方式去实现一些简单的功能，为此我们要做一些准备。
 
 - 在`VS`中安装`MonoGame`插件
-- 创建项目，选择`MonoGame Cross-Platform Desktop Applicatoin`模板，解决方案名称`MonoGame`，项目名为`Sample`
+- 创建项目，选择`MonoGame Cross-Platform Desktop Application`模板，解决方案名称`MonoGame`，项目名为`Sample`
 
 ### 代码实现
 

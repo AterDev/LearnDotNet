@@ -145,7 +145,7 @@ public class HomeController(ILogger<HomeController> logger, IWebHostEnvironment 
 
 现在我们更新下`Index.cshtml`，内容如下:
 
-```razor
+```html
 @model List<string>
 <div class="container p-0">
     <div class="d-flex gap-2">
@@ -193,7 +193,7 @@ MVC设计模式，其实就是抽象页面中要提交的数据以及要展示�
 
 我们先修改`Index.cshtml`，内容如下:
 
-```razor
+```html
 @page
 @model IndexModel
 <div class="container p-0">
@@ -269,7 +269,7 @@ public class IndexModel(ILogger<IndexModel> logger, IWebHostEnvironment env) : P
 
 我们直接修改`Home.razor`中的内容:
 
-```razor
+```html
 @page "/"
 <PageTitle>Home</PageTitle>
 <div class="container p-0">
